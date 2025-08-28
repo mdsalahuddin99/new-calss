@@ -1,5 +1,10 @@
+import ProductList from "../features/Product/productList";
+
 function IndexPage() {
-    return ( <div></div> );
+   
+
+         return (<ProductList />);
+    
 }
 
 export default IndexPage;
