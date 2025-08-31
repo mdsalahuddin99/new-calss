@@ -2,6 +2,9 @@
 import { FaStar } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 
+
+
+
 const ProductCart = () => {
     return (
         <div className="border border-gray-300 p-1">
@@ -21,6 +24,7 @@ const ProductCart = () => {
                     <FaRegHeart className="dark:text-white" />
                 </button>
             </div>
+           
         </div>
     )
 }
